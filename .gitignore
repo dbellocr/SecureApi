@@ -1,0 +1,76 @@
+## ----------------------------------------------------------------------
+## .gitignore para .NET / Visual Studio / VS Code / JetBrains Rider
+## ----------------------------------------------------------------------
+
+# --- Archivos de compilación y salida ---
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+publish/
+
+# --- Visual Studio ---
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+# --- Visual Studio Code ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# --- JetBrains Rider ---
+.idea/
+*.sln.iml
+
+# --- User-specific files / Local Settings ---
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# --- Dependencias y Paquetes NuGet ---
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# --- Cobertura de código y Pruebas ---
+*.mdf
+*.ldf
+*.ndf
+*.coverage
+*.coveragexml
+TestResults/
+[Tt]est[Rr]esult*/
+
+# --- Archivos temporales y de sistema ---
+[Tt]emp/
+[Tt]mp/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Archivos de caché
+*cache
+
+# Símbolos de depuración locales (se compilarán en el pipeline cuando corresponda)
+*.pdb
+
+# Ignorar carpetas bin y obj de manera recursiva en cualquier subdirectorio
+**/bin/
+**/obj/
